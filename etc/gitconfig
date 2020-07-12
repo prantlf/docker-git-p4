@@ -1,0 +1,12 @@
+[alias]
+  p4 = !/usr/bin/git-p4.py
+
+[color]
+  ui = auto
+
+[core]
+  editor = vi
+  autocrlf = input
+
+[credential]
+  helper = cache
