@@ -27,7 +27,7 @@ docker pull prantlf/git-p4
 
 You can run `git`, `p4` and `git-p4` commands with `docker` mapping the current directory as the working directory:
 
-    GITP4="docker run --rm -it -v "${PWD}":/app -w /app prantlf/git-p4"
+    GITP4="docker run --rm -it -v ""${PWD}"":/app -w /app prantlf/git-p4"
     $GITP4 git
     $GITP4 p4
     $GITP4 git p4
