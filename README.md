@@ -113,7 +113,7 @@ Push the local image to the docker hub:
 
 ## License
 
-Copyright (c) 2020 Ferdinand Prantl
+Copyright (c) 2020-2021 Ferdinand Prantl
 
 Licensed under the MIT license.
 
