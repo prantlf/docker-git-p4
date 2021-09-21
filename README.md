@@ -122,7 +122,7 @@ Licensed under the MIT license.
 
 [Docker]: https://www.docker.com/
 [This image]: https://hub.docker.com/repository/docker/prantlf/git-p4
-[this project]: https://gitlab.com/prantlf/docker-alpine-glibc#prantlfalpine-glibc
+[this project]: https://gitlab.com/prantlf/docker-git-p4#prantlfgit-p4
 [`latest`]: https://hub.docker.com/repository/docker/prantlf/git-p4/tags
 [Perforce]: https://www.perforce.com/products/helix-core
 [Git]: https://git-scm.com/
