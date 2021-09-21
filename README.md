@@ -6,6 +6,9 @@
 
 [This image] is supposed to manage sources in [Perforce] using [Git] interface with the help of [git-p4]. Tools `git` and `p4` are available to be used separately, of course. This image is built automatically on the top of the tag `latest` from the [Alpine repository], so that it is always based on the latest [Alpine Linux]. [Git] has to be updated from time to time by triggering a new build manually. [Perforce] and [git-p4] have to updated in the `Dockerfile`.
 
+If you have trouble pulling the image from the Docker's default hub.docker.com, try gitlab.com, where [this project] is primarily maintained: `registry.gitlab.com/prantlf/docker-git-p4`.
+
+
 `git-p4` is a convenient way how to sync sources from Perforce without creating a Perforce client and dealing with read-only files created by `p4`:
 
 * Clone the project sources `git p4 clone //projects/first`.
@@ -119,6 +122,7 @@ Licensed under the MIT license.
 
 [Docker]: https://www.docker.com/
 [This image]: https://hub.docker.com/repository/docker/prantlf/git-p4
+[this project]: https://gitlab.com/prantlf/docker-alpine-glibc#prantlfalpine-glibc
 [`latest`]: https://hub.docker.com/repository/docker/prantlf/git-p4/tags
 [Perforce]: https://www.perforce.com/products/helix-core
 [Git]: https://git-scm.com/
