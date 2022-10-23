@@ -2,12 +2,9 @@
 
 [Docker] image: [Git], [Perforce] and [git-p4] clients for synchronizing source repositories on Alpine Linux
 
-[![prantlf/git-p4](http://dockeri.co/image/prantlf/git-p4)](https://hub.docker.com/repository/docker/prantlf/git-p4/)
-
 [This image] is supposed to manage sources in [Perforce] using [Git] interface with the help of [git-p4]. Tools `git` and `p4` are available to be used separately, of course. This image is built automatically on the top of the tag `latest` from the [Alpine repository], so that it is always based on the latest [Alpine Linux]. [Git] has to be updated from time to time by triggering a new build manually. [Perforce] and [git-p4] have to updated in the `Dockerfile`.
 
 If you have trouble pulling the image from the Docker's default hub.docker.com, try gitlab.com, where [this project] is primarily maintained: `registry.gitlab.com/prantlf/docker-git-p4`.
-
 
 `git-p4` is a convenient way how to sync sources from Perforce without creating a Perforce client and dealing with read-only files created by `p4`:
 
@@ -18,7 +15,7 @@ If you have trouble pulling the image from the Docker's default hub.docker.com, 
 
 ## Tags
 
-- [`latest`]
+- [`latest`], `2.38.1-22.1`, `2.34.1-21.2`
 
 ## Install
 
@@ -102,10 +99,6 @@ Enter an interactive shell inside the created image:
 
     make run
 
-Tag the local image for pushing:
-
-    make tag
-
 Login to the docker hub:
 
     make login
@@ -116,7 +109,7 @@ Push the local image to the docker hub:
 
 ## License
 
-Copyright (c) 2020-2021 Ferdinand Prantl
+Copyright (c) 2020-2022 Ferdinand Prantl
 
 Licensed under the MIT license.
 
